@@ -1,0 +1,36 @@
+{
+  "name": "ts-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript-Node boilerplate",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klenty/ts-node-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "typescript",
+    "node"
+  ],
+  "author": "",
+  "license": "Private",
+  "bugs": {
+    "url": "https://github.com/klenty/ts-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/klenty/ts-node-boilerplate#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.10.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "source-map-support": "^0.5.19",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
